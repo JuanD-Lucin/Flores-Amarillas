@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#075d59" />
+  <title>Flores Amarillas 🌻</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="screen">
+    <div id="starField" class="star-field" aria-hidden="true"></div>
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+
+    <section class="content">
+      <p class="eyebrow">21 de septiembre ✨</p>
+      <h1>Feliz Día de las <span>Flores Amarillas</span></h1>
+      <p class="message">
+        Para Emita, una gran mujer que me ha enseñado todo.
+        Una mujer con un gran corazón. Vales muchísimo, Emi 💛
+      </p>
+
+      <div id="garden" class="garden" aria-label="Girasoles animados">
+        <div class="flower f1">
+          <div class="stem"><span class="leaf leaf-left"></span><span class="leaf leaf-right"></span></div>
+          <div class="flower-head"><div class="petal-layer layer-a"></div><div class="petal-layer layer-b"></div><div class="petal-layer layer-c"></div><div class="flower-center"></div></div>
+        </div>
+        <div class="flower f2">
+          <div class="stem"><span class="leaf leaf-left"></span><span class="leaf leaf-right"></span></div>
+          <div class="flower-head"><div class="petal-layer layer-a"></div><div class="petal-layer layer-b"></div><div class="petal-layer layer-c"></div><div class="flower-center"></div></div>
+        </div>
+        <div class="flower f3">
+          <div class="stem"><span class="leaf leaf-left"></span><span class="leaf leaf-right"></span></div>
+          <div class="flower-head"><div class="petal-layer layer-a"></div><div class="petal-layer layer-b"></div><div class="petal-layer layer-c"></div><div class="flower-center"></div></div>
+        </div>
+        <div class="flower f4">
+          <div class="stem"><span class="leaf leaf-left"></span><span class="leaf leaf-right"></span></div>
+          <div class="flower-head"><div class="petal-layer layer-a"></div><div class="petal-layer layer-b"></div><div class="petal-layer layer-c"></div><div class="flower-center"></div></div>
+        </div>
+        <div class="flower f5">
+          <div class="stem"><span class="leaf leaf-left"></span><span class="leaf leaf-right"></span></div>
+          <div class="flower-head"><div class="petal-layer layer-a"></div><div class="petal-layer layer-b"></div><div class="petal-layer layer-c"></div><div class="flower-center"></div></div>
+        </div>
+      </div>
+
+      <button id="growBtn" class="main-btn" type="button">🌱 Haz crecer los girasoles</button>
+      <button id="musicBtn" class="music-btn" type="button">♪ Reproducir música</button>
+      <p id="hint" class="hint">Toca el botón y mira cómo florecen 🌻</p>
+    </section>
+
+    <audio id="song" loop preload="auto">
+      <source src="flores-amarillas.mp3" type="audio/mpeg" />
+    </audio>
+    <div id="particles" class="particles" aria-hidden="true"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
